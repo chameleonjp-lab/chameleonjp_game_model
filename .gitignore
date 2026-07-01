@@ -1,0 +1,40 @@
+# Local Claude / agent notes
+CLAUDE.local.md
+.claude/local/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*secret*
+*service_role*
+*supabase_key*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Node / future Vite or test artifacts
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.cache/
+.vite/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
